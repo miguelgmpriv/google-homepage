@@ -1,0 +1,12 @@
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+#mainsearch{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+}
