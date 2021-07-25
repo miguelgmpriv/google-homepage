@@ -83,3 +83,20 @@ a {
     height: 34px;
     border: none;
 }
+.searchbuttons{
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+
+}
+.searchbuttons button{
+    background-color: #f5f5f5;
+    color:#5f6368;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 14px;
+    height:36px;
+    padding:5px 16px;
+    margin:5px;
+
+}
