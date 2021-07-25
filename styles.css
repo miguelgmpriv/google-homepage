@@ -1,12 +1,41 @@
-#logo{
-    display: block;
+.logo{
+    display: flex;
+    margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
     width: auto;
 }
-#mainsearch{
-    display: block;
+.searchbar{
+    justify-content: center;
+    align-content: center;
+    width: 482px;
+    height: 44px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+}
+
+.searchicon {
+    display: flex;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+}
+.mic {
+    display: flex;
+    margin:auto;
+    width: 24px;
+    height: 24px;
+
+}
+
+.mainsearch{
+    display: flex;
     margin-right: auto;
     margin-left: auto;
-    width: 500px;
+    width: 387px;
+    height: 34px;
+    border: none;
 }
