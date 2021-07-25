@@ -31,7 +31,7 @@ a {
     border: 1px;
     border-radius: 3px;
 }
-.topnav ul{
+ul{
     list-style-type: none;
     margin: -1em 0;
     padding: 0;
@@ -99,4 +99,32 @@ a {
     padding:5px 16px;
     margin:5px;
 
+}
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+    background: #f2f2f2;
+    font-size: 14px;
+}
+footer a{
+    color:#5f6368;
+}
+.bottomnav{
+    display:flex;
+    justify-content: space-between;  
+}
+#bottomleftnav{
+    display: flex;
+    justify-content: center;
+}
+#bottomrightnav{
+    display: flex;
+    justify-content:center;
+}
+.bottomnav li{
+    padding: 1em;
+    float: left;
 }
