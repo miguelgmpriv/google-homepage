@@ -1,9 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
 .logo{
     display: flex;
-    margin-top: 150px;
+    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 1%;
     width: auto;
+}
+.topnav{
+    display: flex;
+    justify-content: space-between;
+}
+.topnav img{
+    opacity: .55;
+    max-block-size: 30px;
+}
+.topnav button{
+    padding: 8px 10px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #4285f4;
+    border-color: #4285f4;
+    border: 1px;
+    border-radius: 3px;
+}
+.topnav ul{
+    list-style-type: none;
+    margin: -1em 0;
+    padding: 0;
+}
+.topnav li{
+    float:left;
+    padding: 1em;    
+}
+#leftnav{
+    display: flex;
+    align-items:center;
+    
+}
+#rightnav{
+    display: flex;
+    align-items: center;
 }
 .searchbar{
     justify-content: center;
